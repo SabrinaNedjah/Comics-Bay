@@ -1,0 +1,363 @@
+body{
+	background: url('../images/bgWebSite.png') no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+
+.logo-comicsBay{
+  width: 25em;
+  margin: 6em;
+}
+
+.menuLabel{
+  padding: 0;
+  background: rgba(27, 27, 27, 0.95);
+}
+
+.menuLabel ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+.menuLabel li{
+  float: left;
+}
+
+.menuLabel li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menuLabel li a:hover{
+  color: #ffbf00;
+  transition: color 0.5s ease;
+}
+
+.news{
+  background:black;
+  width: 100%;
+}
+
+.newsArticle{
+	float: left;
+	margin: 3rem 0;
+	width: 50%;
+	height: 450px;
+}
+
+.newsArticle:nth-child(odd){
+	width: calc(50% - 1rem);
+}
+
+.newsArticle:nth-child(even){
+	width: calc(50% - 1rem);
+	margin-left: 1rem;
+}
+
+.newsArticle .imageArticle{
+	width: 100%;
+	height: auto;
+}
+
+.newsArticle .newTitle{
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.newsArticle .blockImage{
+	height: 180px;
+	overflow: hidden;
+}
+
+.newsArticle .newDescription{
+	color: white;
+}
+
+hr{
+	margin: 2em 0;
+  width: 50%;
+  height: 3px;
+  background-color: #ffbf00;
+  border: none;
+}
+
+.latestComics{
+	padding-top: 50px;
+	background-color: black;
+}
+
+.latestComics ul{
+	margin: 0;
+	padding: 0;
+}
+
+.latestComics li{
+	float: left;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-right: 10px;
+	width: calc(25% - 7.5px);
+	height: 400px;
+	color: white;
+}
+
+.latestComics li:nth-child(4n){
+	margin-right: 0;
+}
+
+.latestComics .blockImage{
+	width: 100%;
+	height: 250px;
+}
+
+.latestComics img{
+	max-width: 100%;
+
+}
+
+.calendarEvent{
+	padding: 3em 0;
+	background: black;
+}
+
+.calendarEvent .supermanEvent{
+	float: left;
+	width: 17rem;
+	position: absolute;
+}
+
+iframe{
+	width:500px;
+	height:500px;
+}
+
+/*********/
+/*FOOTER*/
+/********/
+
+.footer-ComicsBay{
+	background-color: #1b1b1b;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-ComicsBay .footer-left,
+.footer-ComicsBay .footer-center,
+.footer-ComicsBay .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+.footer-ComicsBay .footer-left{
+	width: 40%;
+}
+
+
+.footer-ComicsBay .logo-footer{
+  width: 10rem;
+}
+
+
+.footer-ComicsBay .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-ComicsBay .footer-links a{
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-ComicsBay .footer-links a:hover{
+  color: #ffe600;
+  transition: color 0.5s ease;
+}
+
+.footer-ComicsBay .footer-company-name{
+	color:  white;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-ComicsBay .footer-center{
+	width: 35%;
+}
+
+.footer-ComicsBay .footer-center p{
+	color: #ffffff;
+}
+
+.footer-ComicsBay .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-ComicsBay .footer-center p a{
+	color:  #ffe600;
+	text-decoration: none;;
+}
+
+.footer-ComicsBay .footer-right{
+	width: 20%;
+}
+
+.footer-ComicsBay .footer-company-about{
+	line-height: 20px;
+	color:  white;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-ComicsBay .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-ComicsBay .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-ComicsBay .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  font-size: 20px;
+  color: #ffffff;
+  margin-right: 3px;
+}
+
+.whoops{
+	position: absolute;
+    bottom: 0;
+}
+
+.messageError{
+    text-align: center;
+    margin-top: 10%;
+}
+p.error{
+    color: #ffffff;
+    font-size: 80px;
+    text-align: center;
+}
+
+.messageError p{
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+}
+
+
+@media (max-width: 880px) {
+	.menuLabel {
+    padding: 0;
+    background: rgba(27, 27, 27, 0.95);
+    width: auto;
+    font-size: 13px;
+	}
+
+	.footer-ComicsBay{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-ComicsBay .footer-left,
+	.footer-ComicsBay .footer-center,
+	.footer-ComicsBay .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-ComicsBay .footer-center i{
+		margin-left: 0;
+	}
+
+	.news {
+    background: black;
+	}
+
+	.newsArticle {
+    float: left;
+    margin: 1rem 0;
+	height: 23rem;
+	}
+
+	.logo-comicsBay {
+    width: 15em;
+    margin: 3em;
+	}
+
+	.newsArticle .imageArticle {
+    width: 100%;
+	}
+
+	.newsArticle .newTitle {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+	}
+
+	.newsArticle .newDescription {
+		color: white;
+		font-size: 9px;
+	}
+
+	.calendarEvent .supermanEvent {
+    display: none;
+	}
+
+	iframe {
+		width: 21rem;
+		height: 24rem;
+	}
+
+	.whoops {
+		position: absolute;
+		bottom: 0;
+		width: 85%;
+	}
+
+	.messageError p {
+		font-size: 25px;
+	}
+
+	.newsArticle .blockImage {
+		height: 7em;
+		overflow: hidden;
+	}
+
+	.latestComics .blockImage {
+		width: 100%;
+		height: 150px;
+	}
+
+	.latestComics strong {
+		font-weight: bolder;
+		font-size: 10px;
+	}
+
+	.latestComics li {
+		height: 20rem;
+	}
+}
